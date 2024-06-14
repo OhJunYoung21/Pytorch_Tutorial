@@ -61,4 +61,3 @@ def forward(self, x):
     return logits
 
 model = NeuralNetwork().to(device)
-print(model)
